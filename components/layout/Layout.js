@@ -1,9 +1,9 @@
 import style from './layout.module.scss'
 
-export default function Layout ({children}) {
+export default function Layout ({children, bg_color}) {
 
     return (
-        <div className={style.wrapper}>
+        <div style={{background : `${bg_color ? bg_color : "transparent"}`}} className={style.wrapper}>
             {children}
         </div>
     )

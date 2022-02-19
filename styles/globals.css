@@ -10,24 +10,36 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Epilogue', sans-serif;
-  background: #034159;
+  background: #1A2530;
   font-size: 2.75vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #84DA09;
+  color: #E74C3C;
   letter-spacing: 3px;
 }
 h1 {
   font-size: 2rem;
+}
+
+h2, h3 {
+  color: rgb(199, 199, 199);
+  color: #f2f2f2;
+  
+}
+h2 {
+  font-size: 1.15rem;
+}
+h3 {
+  font-size: 1.15rem;
 }
 button {
   margin-top: 4vh;
   border: none;
   font-size: .5rem;
   display: block;
-  background:  #84DA09;
-  color: #023059;
+  background:  #E74C3C;
+  color: #F2F2F2;
   padding: 2vh 2vw 2vh 2vw;
   font-family: 'Epilogue', sans-serif;
   font-weight: 800;
@@ -39,12 +51,16 @@ button {
 a {
   color: inherit;
   text-decoration: none;
-  color: #84DA09;
+  color: #E74C3C;
   font-size: .75rem;
 }
 p {
   color: #f2f2f2;
   font-size: .75rem;
+}
+span {
+  font-family: 'Epilogue', sans-serif;
+
 }
 
 * {

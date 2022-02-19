@@ -2,6 +2,14 @@
 position: relative;
 width: 100%;
 height: 100vh;
+overflow: hidden;
+svg {
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
     .darnell {
         height: 100%;
         position: absolute;
@@ -28,7 +36,7 @@ height: 100vh;
                     text-transform: uppercase;
                     span {
                         margin: 0;
-                        color: #84DA09;
+                        color: #E74C3C;
                         display: initial;
                     }
                 }
@@ -49,12 +57,12 @@ height: 100vh;
         .bg1 {
             height: 100%;
             width: 70%;
-            background: #023059 ;
+            background: #1A2530 ;
         }
         .bg2 {
             height: 100%;
             width: 30%;
-            background: #84DA09 ;
+            background: #34495E ;
         }
     }
 }

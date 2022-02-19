@@ -1,0 +1,24 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.illustrations {
+    width: 50%;
+}
+.about {
+    width: 40%;
+    .intro {
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: .7rem;
+        color: rgb(167, 166, 166);
+    }
+    h1 {
+        padding: 2vh 0 2vh 0;
+        margin: 0;
+    }
+    
+}
